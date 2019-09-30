@@ -13,7 +13,7 @@ function App() {
  };
 //주석주석
  return (
-      <Hello name = "react" />
+      <Hello />
   );
 }
 
