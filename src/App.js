@@ -1,5 +1,5 @@
 import React from 'react';
-import Hello from './Hello';
+import Hello from './Hello'; //Hello컴포넌트를 가져온다,.js는 생략가능
 import './App.css'
 
 //주석
