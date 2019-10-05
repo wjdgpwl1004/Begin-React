@@ -1,26 +1,44 @@
 import React, {useState} from 'react';
 
 function InputSample(){
-    //text 상태값을''으로 초기화
-    const [text, setText] = useState('');
+    const [inputs, setInputs] = useState({
+        name: '',
+        nickname: '',
+    });
+    const {name, nickname} = inputs;
     const onChange = (e) => {
-        //이벤트가 발생한 DOM에 대한 정보가 담겨있다.
-        console.log(e.target.value); //현재 input의 값
-        setText(e.target.value); //input의 값을 text 상태값으로 변경
-    }
+        const {name, value} = e.target;
+        // console.log(e.target.name);
+        // console.log(e.target.value);
+        
+        setInputs({
+            ...inputs,
+          [name]: value,
+        });
+    };
 
-    //text의 값을 초기화
     const onReset = ()=> {
-        setText('');
-    }
+        setInputs({
+            name:'',
+            nickname: '',
+        });
+    };
     return (
         <div>
-            {/* value로 text를 넣어주는 이유? - 우리가 초기화 버튼을 눌렀을때 초기화된 값이 동기화해주어야 한다. */}
-            <input onChange={onChange} value={text} />
+            <input 
+            name="name" 
+            placeholder="이름" 
+            onChange={onChange} 
+            value={name} />
+            <input 
+            name="nickname" 
+            placeholder="닉네임" 
+            onChange={onChange} 
+            value={nickname} />
             <button onClick={onReset}>초기화</button>
             <div>
                 <b>값 : </b>
-                {text}
+                {name}({nickname})
             </div>
         </div>
     );
