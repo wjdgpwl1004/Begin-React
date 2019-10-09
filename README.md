@@ -17,3 +17,5 @@
 [7. 여러개의input상태관리하기](./chapters/7.여러개의input상태관리하기.md)
 
 [8. useRef로특정DOM선택하기](./chapters/8.useRef로특정DOM선택하기.md)
+
+[9. 배열렌더링하기](./chapters/9.배열렌더링하기.md)
