@@ -19,3 +19,7 @@
 [8. useRef로특정DOM선택하기](./chapters/8.useRef로특정DOM선택하기.md)
 
 [9. 배열렌더링하기](./chapters/9.배열렌더링하기.md)
+
+[10. useRef로컴포넌트안의변수만들기](./chapters/10.useRef로컴포넌트안의변수만들기.md)
+
+[11. 배열에항목추가하기](./chapters/11.배열에항목추가하기.md)
