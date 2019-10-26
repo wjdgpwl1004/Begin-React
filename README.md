@@ -28,4 +28,8 @@
 
 [13. 배열에항목수정하기](./chapters/13.배열에항목수정하기.md)
 
-[14. useEffect를사용하여마운트_언마운트_업데이트시할작업설정하기](./chapters/14.useEffect를사용하여마운트_언마운트_업데이트시할작업설정하기.md)
+[14. useEffect를사용하여마운트 언마운트 업데이트시할작업설정하기](./chapters/14.useEffect를사용하여마운트_언마운트_업데이트시할작업설정하기.md)
+
+[15. useMemo를 사용하여 연산한값 재사용하기](./chapters/15.useMemo를사용하여연산한값재사용하기.md)
+
+[16. useCallback를 사용하여 함수재사용하기](./chapters/16.useCallback를사용하여함수재사용하기.md)
