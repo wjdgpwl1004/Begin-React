@@ -33,3 +33,7 @@
 [15. useMemo를 사용하여 연산한값 재사용하기](./chapters/15.useMemo를사용하여연산한값재사용하기.md)
 
 [16. useCallback를 사용하여 함수재사용하기](./chapters/16.useCallback를사용하여함수재사용하기.md)
+
+[17. React.memo를 사용한 컴포넌트 리렌더링 방지](./chapters/17.React.memo를사용한컴포넌트리렌더링방지.md)
+
+[18. useReducer기초](./chapters/18.useReducer기초.md)
