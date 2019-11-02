@@ -1,6 +1,7 @@
 import React, {useRef, useState, useMemo, useCallback} from 'react';
 import UserList from './UserList';
 import CreateUser from './CreateUser';
+import Counter from './Counter';
 
 
 function conuntActiveUsers(users){
@@ -83,6 +84,8 @@ const count = useMemo(() => conuntActiveUsers(users), [users]);
     />
     <UserList users={users} onRemove={onRemove} onToggle={onToggle} />
     <div>활성 사용자 수 : {count}</div>
+
+    <Counter />
     </>
   );
 }
