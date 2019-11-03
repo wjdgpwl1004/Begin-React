@@ -37,3 +37,5 @@
 [17. React.memo를 사용한 컴포넌트 리렌더링 방지](./chapters/17.React.memo를사용한컴포넌트리렌더링방지.md)
 
 [18. useReducer기초](./chapters/18.useReducer기초.md)
+
+[19. useReducer - App에서 useReducer 사용하기](./chapters/19.useReducer_App에서useReducer사용하기.md)
