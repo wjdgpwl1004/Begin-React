@@ -39,3 +39,7 @@
 [18. useReducer기초](./chapters/18.useReducer기초.md)
 
 [19. useReducer - App에서 useReducer 사용하기](./chapters/19.useReducer_App에서useReducer사용하기.md)
+
+[20. 커스텀Hook만들어서사용하기](./chapters/20.커스텀Hook만들어서사용하기.md)
+
+[21. ContextAPI를사용한전역값관리](./chapters/21.ContextAPI를사용한전역값관리.md)
