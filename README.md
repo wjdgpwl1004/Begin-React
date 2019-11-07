@@ -45,3 +45,5 @@
 [21. ContextAPI를사용한전역값관리](./chapters/21.ContextAPI를사용한전역값관리.md)
 
 [22. UserDispatch Context 만들기](./chapters/22.UserDispatchContext만들기.md)
+
+[23. Immer 를 사용한 더 쉬운 불변성 지키기](./chapters/23.Immer를사용한더쉬운불변성지키기.md)
