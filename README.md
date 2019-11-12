@@ -51,3 +51,5 @@
 [24. 리듀서Immer로구현하기](./chapters/24.리듀서Immer로구현하기.md)
 
 [25. 클래스형컴포넌트소개](./chapters/25.클래스형컴포넌트소개.md)
+
+[26. 클래스형컴포넌트의state와setState](./chapters/26.클래스형컴포넌트의state와setState.md)
