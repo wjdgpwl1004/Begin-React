@@ -3,6 +3,8 @@ import produce from 'immer';
 import UserList from './UserList';
 import CreateUser from './CreateUser';
 import useInputs from './useInputs';
+import User from './User';
+import ErrorBoundary from './ErrorBoundary';
 
 
 function conuntActiveUsers(users){
@@ -80,12 +82,23 @@ function App() {
 
 const count = useMemo(()=> conuntActiveUsers(users), [users]);
 
+const user = {
+  id: 1,
+  username: 'velopert'
+};
+
  return (
-   <UserDispatch.Provider value={dispatch}>
+   <>
+   {/* <UserDispatch.Provider value={dispatch}>
     <CreateUser />
     <UserList users={users} />
     <div>활성 사용자 수 : {count}</div>
-    </UserDispatch.Provider>
+    </UserDispatch.Provider> */}
+    <ErrorBoundary>
+     <User />
+    </ErrorBoundary>
+    </>
+
   );
 }
 
