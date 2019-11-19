@@ -15,7 +15,14 @@
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
-    "extends": "react-app"
+    "extends": [
+      "react-app", 
+      "airbnb",
+      "prettier"
+    ],
+    "rules": {
+      "no-unused-vars": 1
+    }
   },
   "browserslist": {
     "production": [
