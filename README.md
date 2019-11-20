@@ -56,12 +56,14 @@
 
 [27. LifeCycle메서드](./chapters/27.LifeCycle메서드.md)
 
-[28.componentDidCatch](./chapters/28.componentDidCatch메서드.md)
+[28. componentDidCatch](./chapters/28.componentDidCatch메서드.md)
 
-[29.componentDidCatch와 Sentry연동](./chapters/29.componentDidCatch와Sentry연동.md)
+[29. componentDidCatch와 Sentry연동](./chapters/29.componentDidCatch와Sentry연동.md)
 
-[30.Prettier](./chapters/30.Prettier.md)
+[30. Prettier](./chapters/30.Prettier.md)
 
-[31.ESLint 소개](./chapters/31.ESLint소개.md)
+[31. ESLint 소개](./chapters/31.ESLint소개.md)
 
-[32.ESLint 설정 커스터마이징](./chapters/32.ESLint설정커스터마이징.md)
+[32. ESLint 설정 커스터마이징](./chapters/32.ESLint설정커스터마이징.md)
+
+[33. Snippet사용하기](./chapters/33.Snippet사용하기.md)
