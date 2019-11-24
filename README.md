@@ -69,3 +69,5 @@
 [33. Snippet사용하기](./chapters/33.Snippet사용하기.md)
 
 [34. Sass](./chapters/34.Sass.md)
+
+[35. Sass버튼 A - size props 설정하기](./chapters/35.Sass버튼A_size_props설정하기.md)
