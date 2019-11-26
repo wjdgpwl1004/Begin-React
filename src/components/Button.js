@@ -4,9 +4,12 @@ import './Button.scss';
 
 //large, medium, small
 //className={`Button ${size}`}로도 표현 가능
-function Button({children,  size, color}) {
+function Button({children,  size, color, outline, fullWidth}) {
     return (
-    <button className={classNames('Button',  size, color)}>{children}</button>
+    <button className={classNames('Button',  size, color, {
+        outline,
+        fullWidth
+    })}>{children}</button>
     );
 }
 

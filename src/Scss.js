@@ -20,6 +20,10 @@ function Scss() {
                 <Button color="pink">Button</Button>
                 <Button  color="pink"size="small">Button</Button>
             </div>
+            <div className="buttons">
+                <Button color="gray" outline fullWidth>Button</Button>
+                <Button color="pink" outline fullWidth>Button</Button>
+            </div>
         </div>
     );
 }
