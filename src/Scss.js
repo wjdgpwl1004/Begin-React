@@ -22,7 +22,7 @@ function Scss() {
             </div>
             <div className="buttons">
                 <Button color="gray" outline fullWidth>Button</Button>
-                <Button color="pink" outline fullWidth>Button</Button>
+                <Button color="pink" outline fullWidth className="customizied">Button</Button>
             </div>
         </div>
     );
