@@ -1,8 +1,13 @@
-import React from 'react';
+import React, {useState} from 'react';
 import Button from './components/Button';
+import CheckBox from './components/CheckBox';
 import './App.scss';
 
 function Scss() {
+    const [check, setCheck] = useState(false);
+    const onChange = (e) => {
+        setCheck(e.target.checked);
+    }
     return (
         <div className="App">
             <div className="buttons">
@@ -24,7 +29,11 @@ function Scss() {
                 <Button color="gray" outline fullWidth>Button</Button>
                 <Button color="pink" outline fullWidth className="customizied">Button</Button>
             </div>
+            <div>
+            <CheckBox onChange={onChange} checked={check}>다음 약관에 모두 동의</CheckBox>
         </div>
+        </div>
+       
     );
 }
 
