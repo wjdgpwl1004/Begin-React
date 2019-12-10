@@ -1,5 +1,5 @@
 import React from 'react';
-import styled from 'styled-components';
+import styled, {ThemeProvider} from 'styled-components';
 import NewButton from './components/NewButton';
 
 const AppBlock = styled.div`
@@ -10,11 +10,23 @@ const AppBlock = styled.div`
     padding:1rem;
 `;
 
+const palette = {
+    blue: '#228be6',
+    gray: '#496057',
+    pink: '#f06595'
+}
+
 function StyledComponents() {
     return (
-        <AppBlock>
-            <NewButton>Button</NewButton>
-        </AppBlock>
+        <ThemeProvider theme={{
+            palette
+        }}>
+            <AppBlock>
+                <NewButton>Button</NewButton>
+                <NewButton color="gray">Button</NewButton>
+                <NewButton color="pink">Button</NewButton>
+            </AppBlock>
+        </ThemeProvider>
     );
 }
 
