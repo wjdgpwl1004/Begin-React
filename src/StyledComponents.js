@@ -31,7 +31,8 @@ function StyledComponents() {
             <ButtonGroup>
                 <NewButton size="large">Button</NewButton>
                 <NewButton color="gray">Button</NewButton>
-                <NewButton size="small" color="pink">Button</NewButton>
+                <NewButton size="small" color="pink" outline>Button</NewButton>
+                <NewButton size="small" color="pink" fullWidth>Button</NewButton>
             </ButtonGroup>
             </AppBlock>
         </ThemeProvider>
