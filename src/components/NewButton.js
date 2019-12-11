@@ -17,6 +17,30 @@ ${({theme, color}) => {
     `;
 }}
 `;
+
+const sizes = {
+    large: {
+        height:'3rem',
+        fontSize: '1.25rem'
+    },
+    medium: {
+        height:'2.25rem',
+        fontSize: '1rem'
+    },
+    small: {
+        height:'1.75rem',
+        fontSize: '0.875rem'
+    }
+};
+const sizeStyles= css`
+/*크기*/
+${({size}) => css`
+    height:${sizes[size].height};
+    font-size:${sizes[size].fontSize};
+`}
+`;
+
+
 const StyledButton = styled.button `
     /*공통스타일*/
     display:inline-flex;
@@ -29,12 +53,10 @@ const StyledButton = styled.button `
     padding-left:1rem;
     padding-right:1rem;
 
-    /*크기*/
-    height:2.25rem;
-    font-size:1rem;
+   
 
     ${colorStyles}
-
+    ${sizeStyles}
  
     /*기타*/
     & + & {
@@ -42,14 +64,15 @@ const StyledButton = styled.button `
     }
 `;
 
-function NewButton({children, color,  ...rest}) {
+function NewButton({children, color, size,  ...rest}) {
     return (
-    <StyledButton color={color} {...rest}>{children}</StyledButton>
+    <StyledButton color={color} size={size} {...rest}>{children}</StyledButton>
     );
 }
 
 NewButton.defaultProps = {
-    color: 'blue'
+    color: 'blue',
+    size: 'medium'
 };
 
 export default NewButton; 
