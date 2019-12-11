@@ -85,3 +85,7 @@
 [41. Styled-components 버튼만들기](./chapters/41.Styled_components버튼만들기.md)
 
 [42. Styled-components - Polished 스타일 유틸 함수 사용](./chapters/42.styled_components_Polished스타일유틸함수사용.md)
+
+[43. Styled-components 버튼 사이즈 조정하기](./chapters/43.Styled_components버튼사이즈조정.md)
+
+[44. Styled-components 버튼 outline, fullWidth 설정](./chapters/44.Styled_components버튼_outline_fullWidth설정.md)
