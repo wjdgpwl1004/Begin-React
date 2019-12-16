@@ -91,3 +91,5 @@
 [44. Styled-components 버튼 outline, fullWidth 설정](./chapters/44.Styled_components버튼_outline_fullWidth설정.md)
 
 [45. Styled-components Dialog 만들기](./chapters/45.Styled_components_Dialog만들기.md)
+
+[46. Styled-components 트랜지션 구현하기](./chapters/46.Styled_components트랜지션구현하기.md)
