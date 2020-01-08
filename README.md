@@ -97,3 +97,5 @@
 [47. TodoList - 프로젝트 생성 UI 준비 - 1](./chapters/47.TodoList_프로젝트생성UI준비1.md)
 
 [48. TodoList - 프로젝트 생성 UI 준비 - 2](./chapters/48.TodoList_프로젝트생성UI준비_2.md)
+
+[49. TodoList - Context API를 활용한 상태관리](./chapters/49.ContextAPI를활용한상태관리.md)
