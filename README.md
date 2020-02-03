@@ -103,3 +103,9 @@
 [50. TodoList - 기능구현하기](./chapters/50.TodoList_기능구현하기.md)
 
 [51. API 연동의 기본](./chapters/51.API연동의기본.md)
+
+[52. useReducer로 요청 상태 관리하기](./chapters/52.useReducer로요청상태관리하기.md)
+
+[53. 53. useAsync 커스텀 Hook 만들어서 사용하기](./chapters/53.useAsync커스텀Hook만들어서사용하기.md)
+
+[54. react-async로 요청 상태 관리하기](./chapters/54.react_async로요청상태관리하기.md)
