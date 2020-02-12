@@ -109,3 +109,5 @@
 [53. 53. useAsync 커스텀 Hook 만들어서 사용하기](./chapters/53.useAsync커스텀Hook만들어서사용하기.md)
 
 [54. react-async로 요청 상태 관리하기](./chapters/54.react_async로요청상태관리하기.md)
+
+[55. Context 에서 비동기작업 상태 관리하기](./chapters/55.Context에서비동기작업상태관리하기.md)
