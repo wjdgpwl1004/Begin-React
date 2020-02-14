@@ -111,3 +111,5 @@
 [54. react-async로 요청 상태 관리하기](./chapters/54.react_async로요청상태관리하기.md)
 
 [55. Context 에서 비동기작업 상태 관리하기](./chapters/55.Context에서비동기작업상태관리하기.md)
+
+[56. Context에서 비동기 작업 상태 관리하기 - 리팩토링](./chapters/56.Context에서비동기작업상태관리하기_리팩토링.md)
