@@ -123,3 +123,9 @@
 [60. 라우터 부가기능 - history, withRouter](./chapters/60.Router_부가기능_history_widthRouter.md)
 
 [61.Router_부가기능_Switch_NavLink등](./chapters/61.Router_부가기능_Switch_NavLink등.md)
+
+[62. Redux소개](./chapters/62.Redux소개.md)
+
+[63. 리덕스에서 사용되는 키워드 숙지](./chapters/63.리덕스에서사용되는키워드숙지.md)
+
+[64. 리덕스의 3가지규칙](./chapters/64.리덕스의3가지규칙.md)
